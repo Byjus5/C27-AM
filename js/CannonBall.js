@@ -1,6 +1,6 @@
 class CannonBall {
   constructor(x, y) {
-    var options = {
+    var opciones = {
       restitution: 0.8,
       friction: 1.0,
       density: 1.0,
@@ -15,7 +15,7 @@ class CannonBall {
     World.add(world, this.body);
   }
 
-  //shooting the cannonball
+  //disparar bala de cañón
   shoot() {
     var velocity = p5.Vector.fromAngle(cannon.angle);
     velocity.mult(20);
