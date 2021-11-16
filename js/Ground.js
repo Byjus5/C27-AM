@@ -1,6 +1,6 @@
 class Ground {
   constructor(x, y, width, height) {
-    var options = {
+    var opciones = {
       isStatic: true
     };
     this.width = width;
