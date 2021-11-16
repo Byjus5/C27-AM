@@ -1,6 +1,6 @@
 class Boat {
   constructor(x, y, width, height, boatPos) {
-    var options = {
+    var opciones = {
       restitution: 0.8,
       friction: 1.0,
       density: 1.0,
@@ -15,7 +15,7 @@ class Boat {
     World.add(world, this.body);
   }
 
-//to remove ships from the world
+//para eliminar barcos del mundo
   remove(index) {
     Matter.World.remove(world, boats[index].body);
     boats.splice(index, 1);
