@@ -1,6 +1,6 @@
 class Tower {
   constructor(x, y, width, height) {
-    var options = {
+    var opciones = {
       isStatic: true
     };
     this.ballImage = loadImage("assets/tower.png");
